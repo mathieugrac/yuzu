@@ -151,6 +151,7 @@ footer {
 .member {
   width: 100%;
   max-width: 140px;
+  line-height: 0;
 }
 
 .member p {
@@ -161,17 +162,37 @@ footer {
   opacity: .5;
 }
 
-.avatar-member {
+.member-link {
   position: relative;
-  display: block;
-  background-color: white;
-  padding:  8px;
-  margin: 0 auto 16px;
+  display: inline-block;
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
   border-radius: 16px;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-  transition: transform 0.1s cubic-bezier(0.2,-2,0.8,2);
+  transition: transform 0.1s cubic-bezier(0.2,-2,0.8,2), background-color 0.1s cubic-bezier(0.2,-2,0.8,2), box-shadow 0.1s cubic-bezier(0.2,-2,0.8,2);
+  margin-bottom: 16px;
 }
 
-a .avatar-member:hover {
+.member-link:hover {
   transform:  scale(1.2)!important;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
 }
+
+.member-img {
+  position: relative;
+  padding:  12px;
+  width: 100%;
+  height: auto;
+}
+
+.mylene {
+  position: absolute;
+  width: 122%;
+  top: -17px;
+  left: -10px;
+}
+
+
+
+
