@@ -1,3 +1,3 @@
 # yuzu
 
-Hey! Welcome to our product designer club.
+Hey! Welcome to our product designers club.
